@@ -36,7 +36,7 @@ def new_in_list(my_list, idx, element):
 def no_c(my_string):
     for i in range(len(my_string)):
         if my_string[i] == 'c' or my_string[i] == 'C':
-            my_string = my_string.del[i]
+            my_string = my_string.del(i)
             return(my_string)
         else:
             return(my_string)
